@@ -17,4 +17,9 @@
       <UniqueIdentifier>{006b642b-b933-4196-bd72-d98f6e32208c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="requirements.txt">
+      <Filter>Файлы ресурсов\docs</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
