@@ -1,7 +1,7 @@
 #include <iostream>
 #include <sstream>
 #include <cassert>
-#include "../src/QuizLib.h"
+#include "QuizLib.h"
 
 using namespace std;
 
