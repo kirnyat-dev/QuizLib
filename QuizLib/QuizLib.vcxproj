@@ -25,6 +25,9 @@
   <ItemGroup>
     <Image Include="uml.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tests.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
