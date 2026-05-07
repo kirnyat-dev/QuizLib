@@ -26,7 +26,11 @@
     <Image Include="uml.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="QuizLib.cpp" />
     <ClCompile Include="tests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QuizLib.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

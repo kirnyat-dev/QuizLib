@@ -13,29 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Файлы ресурсов\docs">
-      <UniqueIdentifier>{006b642b-b933-4196-bd72-d98f6e32208c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\tests">
-      <UniqueIdentifier>{6f5f48ef-1e1c-4445-9e9d-647ec74084b0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="requirements.txt">
-      <Filter>Файлы ресурсов\docs</Filter>
+      <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="testplan.txt">
-      <Filter>Файлы ресурсов\docs</Filter>
+      <Filter>Файлы ресурсов</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="uml.png">
-      <Filter>Файлы ресурсов\docs</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tests.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="QuizLib.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QuizLib.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uml.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
 </Project>
