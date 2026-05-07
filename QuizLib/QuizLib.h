@@ -3,6 +3,9 @@
 
 #include <string>
 #include <vector>
+#include <iostream>
+#include <limits>
+#include <algorithm>
 
 class Quiz {
 private:
