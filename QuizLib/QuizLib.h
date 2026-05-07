@@ -1,11 +1,11 @@
-#ifndef _QUIZLIB_H_
-#define _QUIZLIB_H_
+#ifndef QUIZLIB_H
+#define QUIZLIB_H
 
 #include <string>
 #include <vector>
 #include <iostream>
 #include <limits>
-#include <algorithm>
+#include <cctype>
 
 class Quiz {
 private:
@@ -22,8 +22,9 @@ private:
 
 public:
     Quiz();
-    void addQuestion(const std::string& text, 
-        const std::vector<std::string>& options, int correctIndex);
+    void addQuestion(const std::string& text,
+        const std::vector<std::string>& options,
+        int correctIndex);
     void start();
     int getScore() const;
     void reset();
