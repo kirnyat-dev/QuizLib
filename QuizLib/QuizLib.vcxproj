@@ -21,6 +21,9 @@
   <ItemGroup>
     <Text Include="requirements.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="uml.png" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
