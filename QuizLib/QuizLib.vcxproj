@@ -26,6 +26,7 @@
     <Image Include="uml.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="QuizLib.cpp" />
     <ClCompile Include="tests.cpp" />
   </ItemGroup>
