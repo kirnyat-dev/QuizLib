@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="requirements.txt" />
+    <Text Include="testplan.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="uml.png" />

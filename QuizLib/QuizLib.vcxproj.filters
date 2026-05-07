@@ -21,6 +21,9 @@
     <Text Include="requirements.txt">
       <Filter>Файлы ресурсов\docs</Filter>
     </Text>
+    <Text Include="testplan.txt">
+      <Filter>Файлы ресурсов\docs</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="uml.png">
